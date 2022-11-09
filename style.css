@@ -214,6 +214,15 @@ section .title::after{
 }
 
 /* about section styling */
+
+.about{
+
+    width: 100%; 
+    background: -webkit-linear-gradient(left top, rgb(10, 222, 233) , rgb(9, 3, 48)); /* For Safari 5.1 to 6.0 */  
+    background: -o-linear-gradient(bottom right, rgb(121, 27, 75), rgb(230, 13, 176)); /* For Opera 11.1 to 12.0 */  
+    background: -moz-linear-gradient(bottom right, rgb(118, 47, 16), rgb(128, 23, 0)); /* For Firefox 3.6 to 15 */  
+    background: linear-gradient(to bottom right, rgb(246, 63, 7) , rgb(79, 221, 136) );
+}
 .about .title::after{
     content: "who i am";
 }
@@ -304,6 +313,13 @@ section .title::after{
 }
 
 /* skills section styling */
+.skills{
+    width: 100%; 
+    background: -webkit-linear-gradient(left top, rgb(10, 222, 233) , rgb(9, 3, 48)); /* For Safari 5.1 to 6.0 */  
+    background: -o-linear-gradient(bottom right, rgb(121, 27, 75), rgb(187, 230, 13)); /* For Opera 11.1 to 12.0 */  
+    background: -moz-linear-gradient(bottom right, rgb(16, 76, 118), rgb(128, 23, 0)); /* For Firefox 3.6 to 15 */  
+    background: linear-gradient(to bottom right, rgb(235, 35, 208) , rgb(57, 217, 235));
+}
 
 .skills .title::after{
     content: "what i know";
@@ -360,7 +376,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: hsl(204, 83%, 47%);
+    background: hsl(0, 97%, 46%)
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -442,6 +458,13 @@ section .title::after{
 }
 
 /* contact section styling */
+.contact{
+    width: 100%; 
+    background: -webkit-linear-gradient(left top, rgb(233, 10, 162) , rgb(237, 83, 199)); /* For Safari 5.1 to 6.0 */  
+    background: -o-linear-gradient(bottom right, rgb(16, 240, 5), rgb(223, 13, 230)); /* For Opera 11.1 to 12.0 */  
+    background: -moz-linear-gradient(bottom right, rgb(9, 198, 235), rgb(255, 55, 10)); /* For Firefox 3.6 to 15 */  
+    background: linear-gradient(to bottom right, rgb(4, 245, 237) , rgb(235, 57, 60));
+}
 .contact .title::after{
     content: "get in touch";
 }
